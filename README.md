@@ -12,4 +12,4 @@ More projects will be added as I continue learning and building.
 - CSS3
 
 ## Contact
-Feel free to reach out with feedback or collaboration opportunities:
+Feel free to reach out with feedback or collaboration opportunities
