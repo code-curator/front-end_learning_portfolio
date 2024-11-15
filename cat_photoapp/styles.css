@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgray;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1{
+    font-family: 'Georgia', serif; /* A classic font, elegant and cozy */
+        font-size: 2.5rem; /* Makes it large but not overwhelming */
+        color: #4e342e; /* Warm dark brown */
+        text-align: center; /* Centers the title on the page */
+        margin-bottom: 20px; /* Adds space below the title */
+            border-bottom: 2px solid #d2b48c; /* A tan-colored underline */
+            padding-bottom: 10px; /* Adds spacing between the text and the border */
+        
+          
+}
+h2 {
+    font-family: Arial, sans-serif; /* Clean and easy to read */
+    font-size: 1.8rem; /* Slightly smaller than the main title */
+    color: #2c3e50; /* A dark blue for contrast */
+    margin-top: 20px; /* Adds space above each section */
+    margin-bottom: 10px; /* Adds space below each section title */
+  }
+  /* Style for links */
+a {
+    text-decoration: none; /* Removes the underline */
+    color: #007acc; /* Blue color */
+    font-weight: bold; /* Makes the text bold */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #005f99; /* Darker shade of blue */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+  
