@@ -17,8 +17,6 @@ h1{
         margin-bottom: 20px; /* Adds space below the title */
             border-bottom: 2px solid #d2b48c; /* A tan-colored underline */
             padding-bottom: 10px; /* Adds spacing between the text and the border */
-        
-          
 }
 h2 {
     font-family: Arial, sans-serif; /* Clean and easy to read */
@@ -40,5 +38,72 @@ a:hover {
     color: #005f99; /* Darker shade of blue */
     text-decoration: underline; /* Adds underline on hover */
 }
+/* Style for images */
+img {
+    max-width: 100%; /* Makes images responsive */
+    border-radius: 10px; /* Rounds the corners slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+/* Style for unordered and ordered lists */
+ul, ol {
+    padding-left: 20px; /* Adds spacing on the left */
+    margin-bottom: 20px; /* Adds space below the list */
+    line-height: 1.8; /* Increases spacing between list items */
+}
 
-  
+/* Style for list items */
+li {
+    margin-bottom: 10px; /* Adds spacing between items */
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #333; /* Neutral text color */
+}
+/* Style for form container */
+form {
+    max-width: 500px; /* Limits form width */
+    margin: 20px auto; /* Centers the form */
+    padding: 20px;
+    background: #fff; /* White background */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
+
+/* Style for fieldsets */
+fieldset {
+    border: none; /* Removes the default border */
+    margin-bottom: 15px; /* Adds space between sections */
+}
+
+/* Style for labels */
+label {
+    font-weight: bold;
+    display: block; /* Ensures labels stack above inputs */
+    margin-bottom: 5px;
+}
+
+/* Style for inputs */
+input[type="text"], input[type="radio"], input[type="checkbox"] {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%; /* Full-width inputs */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #007acc; /* Blue button */
+    color: white; /* White text */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #005f99; /* Darker blue on hover */
+}
